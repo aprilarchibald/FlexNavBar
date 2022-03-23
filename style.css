@@ -1,0 +1,38 @@
+.container{
+    height: 60px;
+    width: 95%;
+    background-color: darkgray;
+    
+}
+.nav{
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: space-between;
+    margin: 20px;
+
+}
+.nav-links{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-evenly;
+    
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+
+}
+
+
+.btn{
+    background-color: darkturquoise;
+    color: white;
+    border:  2px solid black;
+    height: 30px;
+    width: 80px;
+    box-shadow: 5px 5px black;
+    border-radius: 10%;
+}
